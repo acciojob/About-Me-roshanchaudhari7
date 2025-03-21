@@ -1,1 +1,114 @@
+body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+        }
 
+        .container {
+            max-width: 80%;
+            margin: 30px auto;
+            padding: 30px;
+            background-color: #ffffff;
+            box-shadow: 0 0 10px #0202021a;
+            border-radius: 10px;
+            display: flex;
+            flex-wrap: nowrap;
+        }
+
+        .left-section {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            padding-right: 20px;
+        }
+
+        .right-section {
+            flex: 2;
+            padding-left: 20px;
+        }
+
+        .profile {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .profile-image {
+            width: 150px;
+            height: 150px;
+        }
+
+        .profile-info {
+            margin-left: 20px;
+        }
+
+        .profile-info h3 {
+            margin-top: 0;
+            font-size: 24px;
+            margin-bottom: 5px;
+        }
+
+        .profile-info p {
+            margin: 5px 0;
+        }
+
+        .about-me {
+            padding: 20px;
+        }
+
+        .about-me h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .skills {
+            padding: 20px;
+        }
+
+        .skills h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .skills ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .skills li {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .skills li img {
+            width: 30px;
+            height: 30px;
+            margin-right: 10px;
+        }
+
+        .skills .progress {
+            width: calc(100% - 40px);
+            height: 8px;
+            background-color: #eee;
+            border-radius: 5px;
+            margin-left: 10px;
+            position: relative;
+        }
+
+        .skills .progress .bar {
+            height: 100%;
+            border-radius: 5px;
+            background-color: #007bff;
+            width: 0%;
+            transition: width 0.5s ease;
+        }
+
+        .skills .progress .percentage {
+            position: absolute;
+            top: -20px;
+            right: 0;
+            font-size: 12px;
+            font-weight: bold;
+        }
